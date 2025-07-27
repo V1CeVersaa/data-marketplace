@@ -152,7 +152,7 @@ def robustify_shapley(psi: NDArray[np.float64], X: NDArray[np.float64], lam: flo
 
 运行结果如下：
 
-![实验结果](assets/result.png)
+![实验结果](result.png)
 
 在本次实验中，我们生成了一个包含 20 个卖家和 120 个买家的市场。卖家的特征是通过与潜在因子相结合生成的，每个买家的目标向量则是基于部分卖家的特征，且买家有自己的私人估值 $\mu$。买家在市场中根据其私人估值和市场价格 $p_n$ 选择合适的出价，卖家根据市场价格提供相应的特征。
 
